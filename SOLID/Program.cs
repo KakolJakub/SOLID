@@ -2,7 +2,7 @@
 using SOLID.S;
 using SOLID.O;
 using SOLID.L;
-//using SOLID.I;
+/using SOLID.I;
 //using SOLID.D;
 
 namespace SOLID
