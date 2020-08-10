@@ -4,15 +4,16 @@ using System.Text;
 
 namespace SOLID.D
 {
-    public class UserInterface
+    public class UserInterface : IUserInterface
     {
-        public void DisplayMenu()
+        public void DisplayMenu(IUserControls a)
         {
-            UserControls controls = new UserControls();
-            
+            IUserControls controls = a;
+
             if (controls.Rmb == true)
             {
                 //Display menu
+                Console.WriteLine("Wyświetlono menu.");
             }
         }
     }

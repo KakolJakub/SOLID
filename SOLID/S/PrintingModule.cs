@@ -10,5 +10,6 @@ namespace SOLID.S
         {
             //Drukuj dokument
         }
+
     }
 }

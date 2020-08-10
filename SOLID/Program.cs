@@ -11,10 +11,8 @@ namespace SOLID
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
-            Console.ReadKey();
-          
+
+            Console.ReadKey();          
         }
     }
-    
 }

@@ -8,7 +8,7 @@ namespace SOLID.L
     {
         public void Fly()
         { 
-
+            //Lataj
         }
     }
 }

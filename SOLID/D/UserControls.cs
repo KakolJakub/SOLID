@@ -4,9 +4,13 @@ using System.Text;
 
 namespace SOLID.D
 {
-    public class UserControls
+    public class UserControls : IUserControls
     {
-        public bool Rmb { get; private set; }
+        public UserControls()
+        {
+        }
+
+        public bool Rmb { get; set; }
         public void OnRightMouseClick()
         {
             Rmb = true;
