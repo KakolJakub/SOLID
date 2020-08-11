@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SOLID.O
 {
-    class NextEngine : Engine
+    public class NextEngine : EngineIdea
     {
         public void Refresh()
         {

@@ -11,7 +11,7 @@ namespace SOLID
     {
         static void Main(string[] args)
         {
-
+            
             Console.ReadKey();          
         }
     }

@@ -9,8 +9,8 @@ namespace SOLID.D
 
         public void Work()
         {
-            IUserControls uc = new UserControls();
-            IUserInterface ui = new UserInterface();
+            UserControls uc = new UserControls();
+            UserInterface ui = new UserInterface();
 
             ui.DisplayMenu(uc);
         }

@@ -6,6 +6,9 @@ namespace SOLID.L
 {
     public class FlyingBirds
     {
+        public void Fly() 
+        {
         
+        }
     }
 }
