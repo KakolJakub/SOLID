@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SOLID.O
 {
-    public abstract class EngineIdea
+    public class EngineIdea
     {
         public void Start()
         {
