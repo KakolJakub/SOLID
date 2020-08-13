@@ -6,6 +6,6 @@ namespace SOLID.D
 {
     public interface IUserInterface
     {
-        void DisplayMenu(IUserControls a);
+        void DisplayMenu();
     }
 }

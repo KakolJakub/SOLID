@@ -6,10 +6,15 @@ namespace SOLID.D
 {
     public class UserInterface : IUserInterface
     {
-        public void DisplayMenu(IUserControls a)
-        {
-            IUserControls controls = a;
+        IUserControls controls;
 
+        public UserInterface(IUserControls addedControls)
+        {
+            controls = addedControls;
+        }
+
+        public void DisplayMenu()
+        {
             if (controls.Rmb == true)
             {
                 //Display menu

@@ -9,10 +9,9 @@ namespace SOLID.D
 
         public void Work()
         {
-            UserControls uc = new UserControls();
-            UserInterface ui = new UserInterface();
+            IUserInterface ui = DependencyInvertor.CreateUserInterface();
 
-            ui.DisplayMenu(uc);
+            ui.DisplayMenu();
         }
        
     }

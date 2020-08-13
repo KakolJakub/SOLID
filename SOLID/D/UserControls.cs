@@ -8,8 +8,8 @@ namespace SOLID.D
     {
         public UserControls()
         {
-        }
 
+        }
         public bool Rmb { get; set; }
         public void OnRightMouseClick()
         {
