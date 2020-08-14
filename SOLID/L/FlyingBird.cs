@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SOLID.L
 {
-    public class FlyingBirds
+    public class FlyingBird : Bird
     {
         public void Fly() 
         {

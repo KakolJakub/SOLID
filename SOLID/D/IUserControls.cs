@@ -8,7 +8,7 @@ namespace SOLID.D
     {
         bool Rmb { get; set; }
 
-        public void OnRightMouseClick();
+        void OnRightMouseClick();
 
     }
 }
